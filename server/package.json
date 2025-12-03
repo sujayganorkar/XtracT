@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "2.0.0",
+  "description": "OCR-First Pipeline Server - Hybrid OCR + Qwen LLM system",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["ocr", "qwen", "paddleocr", "document-extraction", "nlp"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "multer": "^2.0.2",
+    "tesseract.js": "^6.0.1",
+    "sharp": "^0.33.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "notes": {
+    "paddleocr": "Requires Python 3.7+ with: pip install paddleocr pillow",
+    "ollama": "Requires Ollama running at localhost:11434 with qwen2.5vl:7b model"
+  }
+}

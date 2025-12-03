@@ -1,0 +1,1666 @@
+{
+  "size": {
+    "tokens": 15252,
+    "totalTokens": 15342,
+    "characters": 76710,
+    "lines": 1131
+  },
+  "tree": {
+    ".flake8": null,
+    ".github": {
+      "workflows": {
+        "documentation.yml": null,
+        "manual-publish.yml": null,
+        "workflow.yml": null
+      }
+    },
+    ".gitignore": null,
+    ".pre-commit-config.yaml": null,
+    ".ruff.toml": null,
+    "LICENSE": null,
+    "README.md": null,
+    "docs": {
+      "assets": {
+        "Logo.png": null,
+        "azure_image.png": null,
+        "chart_and_images.png": null,
+        "classification_image.png": null,
+        "classification_tree_image.png": null,
+        "claudeLogo.png": null,
+        "claude_budget.png": null,
+        "completion_concatenate.png": null,
+        "completion_paginate.png": null,
+        "completion_strategies.png": null,
+        "deepseekLogo.png": null,
+        "document_loader.png": null,
+        "dynamic_parsing.png": null,
+        "extract-thinker-overview.png": null,
+        "extractor.png": null,
+        "favicon.png": null,
+        "gemini_example.png": null,
+        "llm_image.png": null,
+        "logomain.png": null,
+        "markdown.png": null,
+        "openaiLogo.png": null,
+        "process_image.png": null,
+        "resume_image.png": null,
+        "splitter_image.png": null,
+        "student_teacher.png": null
+      },
+      "core-concepts": {
+        "classification": {
+          "basic.md": null,
+          "index.md": null,
+          "mom.md": null,
+          "tree.md": null,
+          "vision.md": null
+        },
+        "completion-strategies": {
+          "concatenate.md": null,
+          "index.md": null,
+          "paginate.md": null
+        },
+        "contracts": {
+          "index.md": null
+        },
+        "document-loaders": {
+          "aws-textract.md": null,
+          "azure-form.md": null,
+          "data.md": null,
+          "doc2txt.md": null,
+          "docling.md": null,
+          "easy_ocr.md": null,
+          "google-document-ai.md": null,
+          "index.md": null,
+          "llm-image.md": null,
+          "markitdown.md": null,
+          "mistral-ocr.md": null,
+          "pdf-plumber.md": null,
+          "pypdf.md": null,
+          "spreadsheet.md": null,
+          "tesseract.md": null,
+          "txt.md": null,
+          "web-loader.md": null
+        },
+        "evals": {
+          "cost-tracking.md": null,
+          "field-comparison.md": null,
+          "hallucination-detection.md": null,
+          "index.md": null,
+          "teacher-student.md": null
+        },
+        "extractors": {
+          "batch.md": null,
+          "image_charts.md": null,
+          "index.md": null
+        },
+        "index.md": null,
+        "llm-integration": {
+          "dynamic-parsing.md": null,
+          "index.md": null,
+          "thinking-models.md": null
+        },
+        "markdown-conversion": {
+          "index.md": null
+        },
+        "process": {
+          "index.md": null
+        },
+        "splitters": {
+          "image.md": null,
+          "index.md": null,
+          "text.md": null
+        }
+      },
+      "examples": {
+        "aws-stack.md": null,
+        "azure-stack.md": null,
+        "google-stack.md": null,
+        "groq-processing.md": null,
+        "local-processing.md": null,
+        "resume-processing.md": null
+      },
+      "getting-started": {
+        "index.md": null
+      },
+      "index.md": null,
+      "stylesheets": {
+        "extra.css": null
+      }
+    },
+    "examples": {
+      "__init__.py": null,
+      "extractor_basic.py": null,
+      "files": {
+        "CV_Candidate.pdf": null,
+        "Job_Offer.pdf": null,
+        "receipts": {
+          "receipt1.jpg": null
+        }
+      },
+      "invoice.pdf": null,
+      "notebooks": {
+        "basic_example.ipynb": null
+      },
+      "receipt_processor.py": null,
+      "resume_processor.py": null
+    },
+    "extract_thinker": {
+      "__init__.py": null,
+      "batch_job.py": null,
+      "completion_handler.py": null,
+      "concatenation_handler.py": null,
+      "document_loader": {
+        "cached_document_loader.py": null,
+        "document_loader.py": null,
+        "document_loader_aws_textract.py": null,
+        "document_loader_azure_document_intelligence.py": null,
+        "document_loader_beautiful_soup.py": null,
+        "document_loader_data.py": null,
+        "document_loader_doc2txt.py": null,
+        "document_loader_docling.py": null,
+        "document_loader_easy_ocr.py": null,
+        "document_loader_google_document_ai.py": null,
+        "document_loader_llm_image.py": null,
+        "document_loader_markitdown.py": null,
+        "document_loader_mistral_ocr.py": null,
+        "document_loader_pdfplumber.py": null,
+        "document_loader_pypdf.py": null,
+        "document_loader_spreadsheet.py": null,
+        "document_loader_tesseract.py": null,
+        "document_loader_txt.py": null,
+        "llm_interceptor.py": null,
+        "loader_interceptor.py": null
+      },
+      "eval": {
+        "DocumentHallucinationResults.py": null,
+        "HallucinationDetectionStrategy.py": null,
+        "HallucinationResult.py": null,
+        "__init__.py": null,
+        "cli.py": null,
+        "cost_metrics.py": null,
+        "dataset.py": null,
+        "evaluator.py": null,
+        "field_comparison.py": null,
+        "hallucination.py": null,
+        "metrics.py": null,
+        "report.py": null,
+        "setup.py": null
+      },
+      "exceptions.py": null,
+      "extractor.py": null,
+      "global_models.py": null,
+      "image_splitter.py": null,
+      "llm.py": null,
+      "llm_engine.py": null,
+      "markdown": {
+        "__init__.py": null,
+        "markdown_converter.py": null
+      },
+      "models": {
+        "abstract_classification.py": null,
+        "batch_result.py": null,
+        "batch_status.py": null,
+        "classification.py": null,
+        "classification_node.py": null,
+        "classification_response.py": null,
+        "classification_strategy.py": null,
+        "classification_tree.py": null,
+        "completion_strategy.py": null,
+        "contract.py": null,
+        "doc_group.py": null,
+        "doc_groups.py": null,
+        "doc_groups2.py": null,
+        "eager_doc_group.py": null,
+        "lazy_doc_group.py": null,
+        "splitting_strategy.py": null
+      },
+      "pagination_handler.py": null,
+      "process.py": null,
+      "splitter.py": null,
+      "text_splitter.py": null,
+      "utils.py": null,
+      "warning.py": null
+    },
+    "mkdocs.yml": null,
+    "poetry.lock": null,
+    "pyproject.toml": null,
+    "requirements-docs.txt": null,
+    "requirements.txt": null,
+    "tests": {
+      "__init__.py": null,
+      "create_test_spreadsheet.py": null,
+      "critical": {
+        "test_critical_classification.py": null,
+        "test_critical_extraction.py": null
+      },
+      "files": {
+        "CV_Candidate.pdf": null,
+        "Regional_GDP_per_capita_2018.pdf": null,
+        "Regional_GDP_per_capita_2018_2.pdf": null,
+        "Report-state-regions-and-cities-EN.pdf": null,
+        "ambiguous_credit_note.txt": null,
+        "bulk.pdf": null,
+        "family_budget.xlsx": null,
+        "fca-approach-payment-services-electronic-money-2017-5.pdf": null,
+        "form_with_tables.pdf": null,
+        "invoice.docx": null,
+        "invoice.pdf": null,
+        "test_spreadsheet.xlsx": null
+      },
+      "models": {
+        "Chart.py": null,
+        "ChartWithContent.py": null,
+        "DocumentContent.py": null,
+        "Page.py": null,
+        "XYCoordinate.py": null,
+        "driver_license.py": null,
+        "gdp_contract.py": null,
+        "handbook_contract.py": null,
+        "invoice.py": null,
+        "license_contract.py": null,
+        "page_contract.py": null
+      },
+      "notes.txt": null,
+      "test_batch_extractor.py": null,
+      "test_classify.py": null,
+      "test_data": {
+        "documents": {
+          "invoice.pdf": null
+        },
+        "labels": {
+          "permanent_labels.json": null
+        }
+      },
+      "test_document_loader_aws_textract.py": null,
+      "test_document_loader_azure_document_intelligence.py": null,
+      "test_document_loader_base.py": null,
+      "test_document_loader_beautifulsoup.py": null,
+      "test_document_loader_data.py": null,
+      "test_document_loader_docling.py": null,
+      "test_document_loader_easyocr.py": null,
+      "test_document_loader_google_document_ai.py": null,
+      "test_document_loader_llm_image.py": null,
+      "test_document_loader_markitdown.py": null,
+      "test_document_loader_mistral_ocr.py": null,
+      "test_document_loader_pdfplumber.py": null,
+      "test_document_loader_pypdf.py": null,
+      "test_document_loader_spreadsheet.py": null,
+      "test_document_loader_tesseract.py": null,
+      "test_document_loader_txt.py": null,
+      "test_document_loader_word.py": null,
+      "test_evals": {
+        "invoice.pdf": null
+      },
+      "test_evaluator.py": null,
+      "test_extractor.py": null,
+      "test_images": {
+        "driver_license.png": null,
+        "eu_tax_chart.png": null,
+        "invoice.png": null
+      },
+      "test_llm_backends.py": null,
+      "test_markdown_converter.py": null,
+      "test_ollama.py": null,
+      "test_process.py": null
+    }
+  },
+  "files": {
+    "/.flake8": {
+      "type": "content",
+      "content": "[flake8]\nignore = E501",
+      "hash": "8a30a707b4deec949d62b1543e33d32778761eab439a90efc37c2ea7df949676",
+      "size": 22
+    },
+    "/.github/workflows/documentation.yml": {
+      "type": "binary",
+      "hash": "f2d7305200f9ffe94e46f40cd5eb04023dbaacbd954615d43cacdcc3f59a67f1",
+      "size": 380,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/.github/workflows/documentation.yml"
+    },
+    "/.github/workflows/manual-publish.yml": {
+      "type": "binary",
+      "hash": "4dd3b0caedc937d76d596abc39c526ca453c4eab8fc7d1511685290056eccf96",
+      "size": 400,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/.github/workflows/manual-publish.yml"
+    },
+    "/.github/workflows/workflow.yml": {
+      "type": "binary",
+      "hash": "7200dc3957f8b2741907102427bca9363ef3a6b40539c9e36eedb56d490f22b1",
+      "size": 591,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/.github/workflows/workflow.yml"
+    },
+    "/.gitignore": {
+      "type": "binary",
+      "hash": "19e5248742550f9e046508f6b34ebcfdfcc8fa4ced91bac74d5e3ed63d662af0",
+      "size": 1236,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/.gitignore"
+    },
+    "/.pre-commit-config.yaml": {
+      "type": "binary",
+      "hash": "5159e5e7e9b42b7d1a49bb7f9597f9cd9b81bc5b6c321b13201e5bf982fb6feb",
+      "size": 524,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/.pre-commit-config.yaml"
+    },
+    "/.ruff.toml": {
+      "type": "binary",
+      "hash": "419196b710f319f3cfcaac09d5f9d884106788b71b4695567a42f6a028e6df2f",
+      "size": 518,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/.ruff.toml"
+    },
+    "/LICENSE": {
+      "type": "binary",
+      "hash": "708fd848a6e6dc5ee0844250af5a01bfb6f28a426e5319c82d96fe16f166d5d6",
+      "size": 3948,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/LICENSE"
+    },
+    "/README.md": {
+      "type": "binary",
+      "hash": "1974c61ad683e5304319a21a96c02b57a13c045975874ae6137fb52657942183",
+      "size": 4155,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/README.md"
+    },
+    "/docs/assets/Logo.png": {
+      "type": "binary",
+      "hash": "e00b396c9facdb7294f9f761a3bf98a4e0a60e74358e55d1508566d4aa2e52d0",
+      "size": 26196,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/assets/Logo.png"
+    },
+    "/docs/assets/azure_image.png": {
+      "type": "binary",
+      "hash": "e8eea0c5ddf3a949d945828d0379dbadda9248aecff7a44b42620bc941b1391c",
+      "size": 1075310,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/assets/azure_image.png"
+    },
+    "/docs/assets/chart_and_images.png": {
+      "type": "binary",
+      "hash": "42daea92def50b3e817f9a4d8c512e7f168c7fee4d6bb55c0a05bec2c42e51b7",
+      "size": 880154,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/assets/chart_and_images.png"
+    },
+    "/docs/assets/classification_image.png": {
+      "type": "binary",
+      "hash": "6362e4fba7a650d72157d1fecc9138e92123693fdf67e54719172ffc6f0adbb7",
+      "size": 116070,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/assets/classification_image.png"
+    },
+    "/docs/assets/classification_tree_image.png": {
+      "type": "binary",
+      "hash": "66eb44507971ac65d93f3b4eb62c07716fe79517a289ac7c9709c18fc2740e05",
+      "size": 169349,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/assets/classification_tree_image.png"
+    },
+    "/docs/assets/claudeLogo.png": {
+      "type": "binary",
+      "hash": "19ad0ccdf77a5b66d75d135f90917e6a95dba50dca0f58b8a647fa715ed118b8",
+      "size": 53155,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/assets/claudeLogo.png"
+    },
+    "/docs/assets/claude_budget.png": {
+      "type": "binary",
+      "hash": "9f06eed33182df105c883cb596e6d4d8471d09910b9d6ae832e993aea058c518",
+      "size": 238579,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/assets/claude_budget.png"
+    },
+    "/docs/assets/completion_concatenate.png": {
+      "type": "binary",
+      "hash": "b9eb110d0d4054f8935d71b870a6188bf86d444b848963d4415ea6a4c4757b0e",
+      "size": 158044,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/assets/completion_concatenate.png"
+    },
+    "/docs/assets/completion_paginate.png": {
+      "type": "binary",
+      "hash": "84921b177d772c46839657d3d0f725f9fb8bb21d2983882db5a60baf15c6a1bf",
+      "size": 163031,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/assets/completion_paginate.png"
+    },
+    "/docs/assets/completion_strategies.png": {
+      "type": "binary",
+      "hash": "378dddb27f5405a6b294220d74b6f258545a85d5395dd72ade0fa071cc4ada9c",
+      "size": 129807,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/assets/completion_strategies.png"
+    },
+    "/docs/assets/deepseekLogo.png": {
+      "type": "binary",
+      "hash": "f7280b1e90b82fcde2cb0845e8e414fd0622ba0fb590ae308dff8e8b71431e56",
+      "size": 11065,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/assets/deepseekLogo.png"
+    },
+    "/docs/assets/document_loader.png": {
+      "type": "binary",
+      "hash": "575abb0db3a7bdf9b2e1c3057e737433bf960f4b8f9184ccdba4705ff16edd54",
+      "size": 50083,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/assets/document_loader.png"
+    },
+    "/docs/assets/dynamic_parsing.png": {
+      "type": "binary",
+      "hash": "369eae72440b806df746ae203000d3dd580b6c2cba804bd197374a400a6de7ce",
+      "size": 369936,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/assets/dynamic_parsing.png"
+    },
+    "/docs/assets/extract-thinker-overview.png": {
+      "type": "binary",
+      "hash": "c1d64b36b2ee3e96c00ed6f7ac90749a7a203a13033610b828c2cc39c375fbab",
+      "size": 307354,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/assets/extract-thinker-overview.png"
+    },
+    "/docs/assets/extractor.png": {
+      "type": "binary",
+      "hash": "61dd86d0b042b7eaea2957f05978dec89b99f6a9883bf62a79d92c8a0cb05e21",
+      "size": 218952,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/assets/extractor.png"
+    },
+    "/docs/assets/favicon.png": {
+      "type": "binary",
+      "hash": "fdcec41125114f00feb6f2c6bf43efcb106dc255074e37e64ad8da0e3696b387",
+      "size": 1884,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/assets/favicon.png"
+    },
+    "/docs/assets/gemini_example.png": {
+      "type": "binary",
+      "hash": "6f8c7f524ca561f50350d8858b3f718affcd7b82ef3056a3a1941df61d03b2c2",
+      "size": 280678,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/assets/gemini_example.png"
+    },
+    "/docs/assets/llm_image.png": {
+      "type": "binary",
+      "hash": "ea23bd67d84a99748c8227f849e6ab82b542e7ba7b0afe29c391aa411d840f98",
+      "size": 80897,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/assets/llm_image.png"
+    },
+    "/docs/assets/logomain.png": {
+      "type": "binary",
+      "hash": "e00b396c9facdb7294f9f761a3bf98a4e0a60e74358e55d1508566d4aa2e52d0",
+      "size": 26196,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/assets/logomain.png"
+    },
+    "/docs/assets/markdown.png": {
+      "type": "binary",
+      "hash": "b7907d618b53c0e1f34edfccf1e3104abd5c0950b8693d5f7fd35ecffc020af3",
+      "size": 446314,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/assets/markdown.png"
+    },
+    "/docs/assets/openaiLogo.png": {
+      "type": "binary",
+      "hash": "5eb5671c48c256406a2fcfcc8107ff6fcf22f91b9c8e588b0892cfc3b4ed9dc8",
+      "size": 17824,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/assets/openaiLogo.png"
+    },
+    "/docs/assets/process_image.png": {
+      "type": "binary",
+      "hash": "63852480708592b5fdce2991d385998a163fa81f7ac467cf9d093efb8f987498",
+      "size": 172478,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/assets/process_image.png"
+    },
+    "/docs/assets/resume_image.png": {
+      "type": "binary",
+      "hash": "4544ea2e734896ae3505a86965c1649f54864c732132cb008e2ca542cffbdb7e",
+      "size": 158158,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/assets/resume_image.png"
+    },
+    "/docs/assets/splitter_image.png": {
+      "type": "binary",
+      "hash": "3e139b138341a917e49221a8938f533448a89ede4ef5a2630e4a02e969884ac4",
+      "size": 181024,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/assets/splitter_image.png"
+    },
+    "/docs/assets/student_teacher.png": {
+      "type": "binary",
+      "hash": "9aaa09b8517abb46dcd44a334597b2cda56e98938ee56ca639be925707c410ac",
+      "size": 535409,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/assets/student_teacher.png"
+    },
+    "/docs/core-concepts/classification/basic.md": {
+      "type": "binary",
+      "hash": "669b416a8b5cd9c13825c7b479283039b62a67d30002a2f4057443131a2ffd9f",
+      "size": 1040,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/core-concepts/classification/basic.md"
+    },
+    "/docs/core-concepts/classification/index.md": {
+      "type": "binary",
+      "hash": "72e06ed69e6287873ff42ff81e2bcdc0c6d602accd926071baee85708bad4112",
+      "size": 1571,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/core-concepts/classification/index.md"
+    },
+    "/docs/core-concepts/classification/mom.md": {
+      "type": "binary",
+      "hash": "28051c6ed1faedb41726e98e555870e3668fb7acafda8d96d0016239e025e14c",
+      "size": 928,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/core-concepts/classification/mom.md"
+    },
+    "/docs/core-concepts/classification/tree.md": {
+      "type": "binary",
+      "hash": "6bcc325a9445bba47cde9b9b18bb663a1e27011b26dbb57b76d3878836c9b963",
+      "size": 1013,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/core-concepts/classification/tree.md"
+    },
+    "/docs/core-concepts/classification/vision.md": {
+      "type": "binary",
+      "hash": "4dea1096322f21b7d66a9e8a7fca3a4d07168826c38831a725e8a4d861426060",
+      "size": 1213,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/core-concepts/classification/vision.md"
+    },
+    "/docs/core-concepts/completion-strategies/concatenate.md": {
+      "type": "binary",
+      "hash": "62991002861874e6baa7768407767e50d35dc06892206b7263118d17240bc898",
+      "size": 987,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/core-concepts/completion-strategies/concatenate.md"
+    },
+    "/docs/core-concepts/completion-strategies/index.md": {
+      "type": "binary",
+      "hash": "e7c5abafec212568fda35dd7f489fe1da9d1525e3a10dd3bda1d6e6d27625f87",
+      "size": 829,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/core-concepts/completion-strategies/index.md"
+    },
+    "/docs/core-concepts/completion-strategies/paginate.md": {
+      "type": "binary",
+      "hash": "05d0e040c2920b9aa8c40012736a2d29558cdcab0b423ca5a549eceb224e5ede",
+      "size": 986,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/core-concepts/completion-strategies/paginate.md"
+    },
+    "/docs/core-concepts/contracts/index.md": {
+      "type": "binary",
+      "hash": "e5384d8cc8f2155340fc4bce89a9de0d4fa2a798cd4f14a9576f7403729d3f4f",
+      "size": 551,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/core-concepts/contracts/index.md"
+    },
+    "/docs/core-concepts/document-loaders/aws-textract.md": {
+      "type": "binary",
+      "hash": "10026e27d99477003a6ef9758525c558b2f1fc550be290957f864526ed76265c",
+      "size": 1058,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/core-concepts/document-loaders/aws-textract.md"
+    },
+    "/docs/core-concepts/document-loaders/azure-form.md": {
+      "type": "binary",
+      "hash": "af5ec307f09a494b2754c92eae0e58519b9c36f28a3420f70f599ec330ffc33c",
+      "size": 2168,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/core-concepts/document-loaders/azure-form.md"
+    },
+    "/docs/core-concepts/document-loaders/data.md": {
+      "type": "binary",
+      "hash": "14a82e0041d8216b48515f1254cb3c7f3b0852dbd62ebb711324af875cb44dcb",
+      "size": 683,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/core-concepts/document-loaders/data.md"
+    },
+    "/docs/core-concepts/document-loaders/doc2txt.md": {
+      "type": "binary",
+      "hash": "455aff7cf934f1e58ca5123e1b7b1069a314dfa9a596d4c0997d4f3f75307110",
+      "size": 844,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/core-concepts/document-loaders/doc2txt.md"
+    },
+    "/docs/core-concepts/document-loaders/docling.md": {
+      "type": "binary",
+      "hash": "d667d6b9051655a49f308765240754aa3309155903c8b41f55b5d35a1f7cb267",
+      "size": 1153,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/core-concepts/document-loaders/docling.md"
+    },
+    "/docs/core-concepts/document-loaders/easy_ocr.md": {
+      "type": "binary",
+      "hash": "2a9b3877a218b4b29df1469c9215eb7a5eebcdd250f7070f8d9127e8dd022eca",
+      "size": 1305,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/core-concepts/document-loaders/easy_ocr.md"
+    },
+    "/docs/core-concepts/document-loaders/google-document-ai.md": {
+      "type": "binary",
+      "hash": "393c1b35c085ef07d994692aff67d6801fc18d2e1b2f0b88b07b8f4beb726100",
+      "size": 1040,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/core-concepts/document-loaders/google-document-ai.md"
+    },
+    "/docs/core-concepts/document-loaders/index.md": {
+      "type": "binary",
+      "hash": "e2b42026b7c8a7f66ce91d07ce47a8142a8ab033630ff4541c4e0e1aff1765c8",
+      "size": 2262,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/core-concepts/document-loaders/index.md"
+    },
+    "/docs/core-concepts/document-loaders/llm-image.md": {
+      "type": "binary",
+      "hash": "3c36691d6c350323e82e87abcdac602d9a0a545d3cddf74e795be5c1c7d38f1e",
+      "size": 972,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/core-concepts/document-loaders/llm-image.md"
+    },
+    "/docs/core-concepts/document-loaders/markitdown.md": {
+      "type": "binary",
+      "hash": "42380d29a5807ede3eec52bc647bf290a8437eb7dbc32630fbcc5c3af101166b",
+      "size": 1099,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/core-concepts/document-loaders/markitdown.md"
+    },
+    "/docs/core-concepts/document-loaders/mistral-ocr.md": {
+      "type": "binary",
+      "hash": "962da71963af727e1584c966a5280a84cdc63ded49eb89c912ea9929edb591d2",
+      "size": 2682,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/core-concepts/document-loaders/mistral-ocr.md"
+    },
+    "/docs/core-concepts/document-loaders/pdf-plumber.md": {
+      "type": "binary",
+      "hash": "fff3b65acfe548bf80e3000c462cc2874be24a23331ead5830e36b5dde901dad",
+      "size": 880,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/core-concepts/document-loaders/pdf-plumber.md"
+    },
+    "/docs/core-concepts/document-loaders/pypdf.md": {
+      "type": "binary",
+      "hash": "3ae8462525e33502a512ad662cc668caa10d305704a1ea60b1d114632d468a36",
+      "size": 817,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/core-concepts/document-loaders/pypdf.md"
+    },
+    "/docs/core-concepts/document-loaders/spreadsheet.md": {
+      "type": "binary",
+      "hash": "edfb27b96b6cd6e5f35bfb6536878211fd5efab0663d22ea0f4c0cb184f3652a",
+      "size": 418,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/core-concepts/document-loaders/spreadsheet.md"
+    },
+    "/docs/core-concepts/document-loaders/tesseract.md": {
+      "type": "binary",
+      "hash": "bcd822bd707c53f3889465e0db2a2a98a739a038937bda3009725651a1dc4c7d",
+      "size": 1459,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/core-concepts/document-loaders/tesseract.md"
+    },
+    "/docs/core-concepts/document-loaders/txt.md": {
+      "type": "binary",
+      "hash": "14e2f4bf34d3cb2c9693436e4b70d2508e21c0920e06d96c7271866976a52758",
+      "size": 816,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/core-concepts/document-loaders/txt.md"
+    },
+    "/docs/core-concepts/document-loaders/web-loader.md": {
+      "type": "binary",
+      "hash": "c118a005ebe43f17bb1d36e0c33ec9b70a2aadb1e4312545b3f51c8007d73eb2",
+      "size": 942,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/core-concepts/document-loaders/web-loader.md"
+    },
+    "/docs/core-concepts/evals/cost-tracking.md": {
+      "type": "binary",
+      "hash": "43a697032f9fac67b9884e09c31ceae4d66b7656a4ee4c611b8f665918c81172",
+      "size": 1771,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/core-concepts/evals/cost-tracking.md"
+    },
+    "/docs/core-concepts/evals/field-comparison.md": {
+      "type": "binary",
+      "hash": "27ba0b769f9d19aa2f25f8145d97cd297382fce42fdb8633656408d7b45785b9",
+      "size": 1803,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/core-concepts/evals/field-comparison.md"
+    },
+    "/docs/core-concepts/evals/hallucination-detection.md": {
+      "type": "binary",
+      "hash": "6ff309bfdca2c8e6ae699b8d7ea33deef84952121d0053b1c8e2648397f42be6",
+      "size": 1773,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/core-concepts/evals/hallucination-detection.md"
+    },
+    "/docs/core-concepts/evals/index.md": {
+      "type": "binary",
+      "hash": "e82160008f44a6aa844e51bfebc9d47c07d50d9737b0da2e22b7b32ddec296aa",
+      "size": 2522,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/core-concepts/evals/index.md"
+    },
+    "/docs/core-concepts/evals/teacher-student.md": {
+      "type": "binary",
+      "hash": "1d732f51ae5b8aacf4bcceeb5c7a7791180db620844d143ed3632d6c3f3ec5a8",
+      "size": 1818,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/core-concepts/evals/teacher-student.md"
+    },
+    "/docs/core-concepts/extractors/batch.md": {
+      "type": "binary",
+      "hash": "d566b073ceab34aba2e41b5fa783eb0cee1a35163311c08441400e55615c1887",
+      "size": 518,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/core-concepts/extractors/batch.md"
+    },
+    "/docs/core-concepts/extractors/image_charts.md": {
+      "type": "binary",
+      "hash": "3671d2654e230edf074202bb0be99c7aa709f8dc15c07dbccdf5e0489594ed34",
+      "size": 943,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/core-concepts/extractors/image_charts.md"
+    },
+    "/docs/core-concepts/extractors/index.md": {
+      "type": "binary",
+      "hash": "4923762b5994f93867b2e2d08b3d2cac0b7f9723efd9ae976662493bb88e8c29",
+      "size": 1138,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/core-concepts/extractors/index.md"
+    },
+    "/docs/core-concepts/index.md": {
+      "type": "content",
+      "content": "",
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    "/docs/core-concepts/llm-integration/dynamic-parsing.md": {
+      "type": "binary",
+      "hash": "f3d7928187ff7c9e0898fec59703648a7b88dfed03c151711061b3d39d7473d5",
+      "size": 1015,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/core-concepts/llm-integration/dynamic-parsing.md"
+    },
+    "/docs/core-concepts/llm-integration/index.md": {
+      "type": "binary",
+      "hash": "1826f65d01f9fe9cec45568fe80a24e17a0a1692c248dad76320c59aba242f0b",
+      "size": 1327,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/core-concepts/llm-integration/index.md"
+    },
+    "/docs/core-concepts/llm-integration/thinking-models.md": {
+      "type": "binary",
+      "hash": "674f15bba3c71c248c34ce19a006ad035fca7c9a04d36eb67c1168c84c60d485",
+      "size": 1427,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/core-concepts/llm-integration/thinking-models.md"
+    },
+    "/docs/core-concepts/markdown-conversion/index.md": {
+      "type": "binary",
+      "hash": "4a3dbf91c3804b46ca05ab430991589de02cfe474e506c318e0bf6634a5fecd4",
+      "size": 2082,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/core-concepts/markdown-conversion/index.md"
+    },
+    "/docs/core-concepts/process/index.md": {
+      "type": "binary",
+      "hash": "0eac0178fafbe0fa304f45c5947e88c2f523ab0c8b0f7aff4a860c7daf30eba5",
+      "size": 856,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/core-concepts/process/index.md"
+    },
+    "/docs/core-concepts/splitters/image.md": {
+      "type": "binary",
+      "hash": "5e79b5fdeeb13286bb976844d6dabd491554de8dda78d715e007d5ab2bc7aabf",
+      "size": 364,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/core-concepts/splitters/image.md"
+    },
+    "/docs/core-concepts/splitters/index.md": {
+      "type": "binary",
+      "hash": "0bf526e645b25a072df36d0e029a4d79012fb28b3c9f4c8a8803316a1b7f3c23",
+      "size": 1405,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/core-concepts/splitters/index.md"
+    },
+    "/docs/core-concepts/splitters/text.md": {
+      "type": "binary",
+      "hash": "9c1607212caed06bd31bad16280695e49ca250450041e191904de6e689bccc07",
+      "size": 351,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/core-concepts/splitters/text.md"
+    },
+    "/docs/examples/aws-stack.md": {
+      "type": "binary",
+      "hash": "1c6ac0f733a7886876e8cfbc1e488fb06b2d1630b3b07bdd0cf7945325d2d90c",
+      "size": 817,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/examples/aws-stack.md"
+    },
+    "/docs/examples/azure-stack.md": {
+      "type": "binary",
+      "hash": "dab5b76a08b94d4f8334de1474105c921f6cd0c7fb7eb5b835af81c27cd5edd2",
+      "size": 911,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/examples/azure-stack.md"
+    },
+    "/docs/examples/google-stack.md": {
+      "type": "binary",
+      "hash": "5c2665d27d3dc662a217fadc9b63bdb2d7a1bed559fec0655709a3a34e0ca9e8",
+      "size": 2153,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/examples/google-stack.md"
+    },
+    "/docs/examples/groq-processing.md": {
+      "type": "binary",
+      "hash": "d7e11cb687304c01da1a6fae078adfa9190ace956c07bc8d7535dd51f9191e44",
+      "size": 803,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/examples/groq-processing.md"
+    },
+    "/docs/examples/local-processing.md": {
+      "type": "binary",
+      "hash": "fde0607ff9b089b570f81d8badb104d2b3f3d94a0171f24f26069b95a0b2dd43",
+      "size": 541,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/examples/local-processing.md"
+    },
+    "/docs/examples/resume-processing.md": {
+      "type": "binary",
+      "hash": "66b978a12fa7e629d615ce21fd019207a850e544f19427f65b9fb55e62a433c4",
+      "size": 1704,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/examples/resume-processing.md"
+    },
+    "/docs/getting-started/index.md": {
+      "type": "binary",
+      "hash": "ea1c7e5862f71dcb2316dff672b434ed189aeef9c31c9980e6e06310e01375a8",
+      "size": 2387,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/getting-started/index.md"
+    },
+    "/docs/index.md": {
+      "type": "binary",
+      "hash": "6b830a0e507e42d9ae1347d0c187f15e32b64b83706f0e235e9c28efce48220b",
+      "size": 127,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/index.md"
+    },
+    "/docs/stylesheets/extra.css": {
+      "type": "binary",
+      "hash": "1acebc5bdbdadce2e79ff2d2e98dcb124f6a221d51e874253155ce11bf96aa22",
+      "size": 1599,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/docs/stylesheets/extra.css"
+    },
+    "/examples/__init__.py": {
+      "type": "binary",
+      "hash": "a74ceb52ff8c05a32fc165fee0c1ba93008b1772372b05ec05ab9565d79deef8",
+      "size": 46,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/examples/__init__.py"
+    },
+    "/examples/extractor_basic.py": {
+      "type": "binary",
+      "hash": "9c7b3b6a1adcfce70fa29a66ae4b333524a2d87b4d45ed2a62df4415f75944a7",
+      "size": 353,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/examples/extractor_basic.py"
+    },
+    "/examples/files/CV_Candidate.pdf": {
+      "type": "binary",
+      "hash": "8120c54dec3cb9c838e620bda6b2d62262885e2d6082d61270a9011c042de6d8",
+      "size": 34062,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/examples/files/CV_Candidate.pdf"
+    },
+    "/examples/files/Job_Offer.pdf": {
+      "type": "binary",
+      "hash": "db1fb97b6eca929ffdca61c9f1dfa672d85da7057e5893ee2cac2291c7174c4e",
+      "size": 36001,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/examples/files/Job_Offer.pdf"
+    },
+    "/examples/files/receipts/receipt1.jpg": {
+      "type": "binary",
+      "hash": "2515fbfcde0ea08359d0a38a62046f13d8bbed1b2d84a79ed84673fccca81968",
+      "size": 25069,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/examples/files/receipts/receipt1.jpg"
+    },
+    "/examples/invoice.pdf": {
+      "type": "binary",
+      "hash": "1cf8d2579207ea2a188e83f8a83f45ca68534f496db6b207651d0a75fb9d5363",
+      "size": 72929,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/examples/invoice.pdf"
+    },
+    "/examples/notebooks/basic_example.ipynb": {
+      "type": "binary",
+      "hash": "5a08722c9178874b55500f5b5c2ffddefd7d6d8d11434b29880b89820b5352a5",
+      "size": 4248,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/examples/notebooks/basic_example.ipynb"
+    },
+    "/examples/receipt_processor.py": {
+      "type": "binary",
+      "hash": "e782ef1c62c9c6b8e5a3fc13280830e1406316fa4e5c41eb5ea4601eca3bc14d",
+      "size": 1169,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/examples/receipt_processor.py"
+    },
+    "/examples/resume_processor.py": {
+      "type": "binary",
+      "hash": "0bbb1c5e6a4fe1f4dc649298b32f46cbc7198b608b777def98919ef1dd43138e",
+      "size": 1618,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/examples/resume_processor.py"
+    },
+    "/extract_thinker/__init__.py": {
+      "type": "binary",
+      "hash": "a63f8506dd466a927ec2aa854e335fe1537e7f0d2def4e17b02dd84bec9d0b3b",
+      "size": 815,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/__init__.py"
+    },
+    "/extract_thinker/batch_job.py": {
+      "type": "binary",
+      "hash": "23efd543d3c7fc58b8e7aba7eb03abc754709d643cfeb5bf2bfa6b470986d18f",
+      "size": 1929,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/batch_job.py"
+    },
+    "/extract_thinker/completion_handler.py": {
+      "type": "binary",
+      "hash": "c7d6733bef0e86a1275f9d5c5e6f3028e931ea957abf2465945ee0bf3462721a",
+      "size": 364,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/completion_handler.py"
+    },
+    "/extract_thinker/concatenation_handler.py": {
+      "type": "binary",
+      "hash": "f3c13aa98880c9d170853bd382c3064e7fbaaca3ea778861afa3796ad5cd1a30",
+      "size": 2065,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/concatenation_handler.py"
+    },
+    "/extract_thinker/document_loader/cached_document_loader.py": {
+      "type": "binary",
+      "hash": "b45de89fe7fd271f89e7055e1038d1f787963bcb537b22ba34b4fc880b48030d",
+      "size": 460,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/document_loader/cached_document_loader.py"
+    },
+    "/extract_thinker/document_loader/document_loader.py": {
+      "type": "binary",
+      "hash": "24afc4df574b5612979421e26d67191562b563c2627dee901511292a473535fd",
+      "size": 3489,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/document_loader/document_loader.py"
+    },
+    "/extract_thinker/document_loader/document_loader_aws_textract.py": {
+      "type": "binary",
+      "hash": "5fdd0fc46143503717480a7b6f54716135561f76524918d95a143aeaa708b55e",
+      "size": 3676,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/document_loader/document_loader_aws_textract.py"
+    },
+    "/extract_thinker/document_loader/document_loader_azure_document_intelligence.py": {
+      "type": "binary",
+      "hash": "0e3dc2c4d5c63c23aa3c24263137db7a3df61d113d00d3736fd334454f9c07c7",
+      "size": 4630,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/document_loader/document_loader_azure_document_intelligence.py"
+    },
+    "/extract_thinker/document_loader/document_loader_beautiful_soup.py": {
+      "type": "binary",
+      "hash": "b57ec87a2d625759eb2f72151b4ce3cac20c0a6f893023bf37417c639ebf9e4c",
+      "size": 2783,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/document_loader/document_loader_beautiful_soup.py"
+    },
+    "/extract_thinker/document_loader/document_loader_data.py": {
+      "type": "binary",
+      "hash": "8e453d5020a859c1b12beb2656ecda5b73eff5401e8c130b0e2b8eba04b888b5",
+      "size": 1652,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/document_loader/document_loader_data.py"
+    },
+    "/extract_thinker/document_loader/document_loader_doc2txt.py": {
+      "type": "binary",
+      "hash": "01a2d46331e2d5bcbadd6e4a68e4a6d0dfa566757b5013bfe13c034b7b7fcf29",
+      "size": 1886,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/document_loader/document_loader_doc2txt.py"
+    },
+    "/extract_thinker/document_loader/document_loader_docling.py": {
+      "type": "binary",
+      "hash": "435d82d877beac49787945d860285883a3ecee58ec63b85fbdec8b7218da649c",
+      "size": 3768,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/document_loader/document_loader_docling.py"
+    },
+    "/extract_thinker/document_loader/document_loader_easy_ocr.py": {
+      "type": "binary",
+      "hash": "e0c3217aecb3dd174ff62cd6405977c097362f9af68dea4afa7b6ccb0796b26d",
+      "size": 2649,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/document_loader/document_loader_easy_ocr.py"
+    },
+    "/extract_thinker/document_loader/document_loader_google_document_ai.py": {
+      "type": "binary",
+      "hash": "490dfa70fe5b4bac11501abf56449447d462c1c4356561cfe459eaf98ac54c11",
+      "size": 3100,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/document_loader/document_loader_google_document_ai.py"
+    },
+    "/extract_thinker/document_loader/document_loader_llm_image.py": {
+      "type": "binary",
+      "hash": "804863edee1e4ff39a1e8a4dded22f636c9a40afe3a3f0ede765b38725326b59",
+      "size": 2437,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/document_loader/document_loader_llm_image.py"
+    },
+    "/extract_thinker/document_loader/document_loader_markitdown.py": {
+      "type": "binary",
+      "hash": "2af63a0499a9e8de165c392bdff792b850e918b89f23fcf3c53cf1f87ac5695c",
+      "size": 2818,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/document_loader/document_loader_markitdown.py"
+    },
+    "/extract_thinker/document_loader/document_loader_mistral_ocr.py": {
+      "type": "binary",
+      "hash": "3a650524ebcf0805c3f6bd20322c3670e3b0e306d832221f978d507badd5a06c",
+      "size": 7112,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/document_loader/document_loader_mistral_ocr.py"
+    },
+    "/extract_thinker/document_loader/document_loader_pdfplumber.py": {
+      "type": "binary",
+      "hash": "284b50319e17e0bbfc5a17417aa749cb5649482ede03eca7fad63d079c91e81f",
+      "size": 2105,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/document_loader/document_loader_pdfplumber.py"
+    },
+    "/extract_thinker/document_loader/document_loader_pypdf.py": {
+      "type": "binary",
+      "hash": "02ac69624896a3b7d9e86f61fda590a738e84df3c1f3bc9b67e587578ae98adc",
+      "size": 1782,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/document_loader/document_loader_pypdf.py"
+    },
+    "/extract_thinker/document_loader/document_loader_spreadsheet.py": {
+      "type": "binary",
+      "hash": "04f508ed68e6fafcc71dc02a4f441df8e5c4cd3aa280fb050bb67d34bd34205b",
+      "size": 2896,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/document_loader/document_loader_spreadsheet.py"
+    },
+    "/extract_thinker/document_loader/document_loader_tesseract.py": {
+      "type": "binary",
+      "hash": "01507b4cdf4789bab52c5aa825beb6106b93b99dedbd7d8746a7cebf9910b77d",
+      "size": 3429,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/document_loader/document_loader_tesseract.py"
+    },
+    "/extract_thinker/document_loader/document_loader_txt.py": {
+      "type": "binary",
+      "hash": "e9e0e057cc0d93c1c9785f64bf4809493506412959080a48c4db7ff23ec8b388",
+      "size": 1608,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/document_loader/document_loader_txt.py"
+    },
+    "/extract_thinker/document_loader/llm_interceptor.py": {
+      "type": "binary",
+      "hash": "f5c2cec6762e15a2d1ac232e2333029a6b2ff926eebcccb893d3ae791fddd6e1",
+      "size": 120,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/document_loader/llm_interceptor.py"
+    },
+    "/extract_thinker/document_loader/loader_interceptor.py": {
+      "type": "binary",
+      "hash": "ae53b2113a143f016226a132824961533a9c1c8efe05e177fee5426a959980b8",
+      "size": 130,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/document_loader/loader_interceptor.py"
+    },
+    "/extract_thinker/eval/DocumentHallucinationResults.py": {
+      "type": "binary",
+      "hash": "5bc8fcfcce5629466414abd9b595fd6e26dc4684e28ec33bdcd00bc06ff4a757",
+      "size": 207,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/eval/DocumentHallucinationResults.py"
+    },
+    "/extract_thinker/eval/HallucinationDetectionStrategy.py": {
+      "type": "binary",
+      "hash": "df7b7a018b4050b8d327785d80137259d52a572712cbbcc3c0ac5336468b4237",
+      "size": 189,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/eval/HallucinationDetectionStrategy.py"
+    },
+    "/extract_thinker/eval/HallucinationResult.py": {
+      "type": "binary",
+      "hash": "0692ce5f2fbbeaaefa6b989a5bd22f9ccfcaee67edf3cf93c184419194128784",
+      "size": 182,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/eval/HallucinationResult.py"
+    },
+    "/extract_thinker/eval/__init__.py": {
+      "type": "binary",
+      "hash": "3b0cd42049cc76e100bb28264701a44117fbbe69b512de07f04a93ecc55506c3",
+      "size": 340,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/eval/__init__.py"
+    },
+    "/extract_thinker/eval/cli.py": {
+      "type": "binary",
+      "hash": "20a101c8d9620ea3b56839888c5fafc230cb4748d571c96e0f1360cb9ad28b55",
+      "size": 1596,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/eval/cli.py"
+    },
+    "/extract_thinker/eval/cost_metrics.py": {
+      "type": "binary",
+      "hash": "b084a4cb1bd72c2947ecef0714aac2c4359445929921e5d763027ce9a53299c1",
+      "size": 767,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/eval/cost_metrics.py"
+    },
+    "/extract_thinker/eval/dataset.py": {
+      "type": "binary",
+      "hash": "376fa0816bfa0f0ed4ed72a1cc7e8f09d77ecaa5f90bd02f53cc0026ee194bb2",
+      "size": 1081,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/eval/dataset.py"
+    },
+    "/extract_thinker/eval/evaluator.py": {
+      "type": "binary",
+      "hash": "25d421a35aaa36542b26bc6e51a3a3ef7f30ba1c969d8714ebbb282a4976e0de",
+      "size": 5937,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/eval/evaluator.py"
+    },
+    "/extract_thinker/eval/field_comparison.py": {
+      "type": "binary",
+      "hash": "d5d540d39b246f882b54c2d066ce6edd19abedc836f24e678f03e27608acd0ef",
+      "size": 2223,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/eval/field_comparison.py"
+    },
+    "/extract_thinker/eval/hallucination.py": {
+      "type": "binary",
+      "hash": "3af12e236b3adea200868b7bc6ed88096af97e0f452fce9fc693bf432e9b451a",
+      "size": 2892,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/eval/hallucination.py"
+    },
+    "/extract_thinker/eval/metrics.py": {
+      "type": "binary",
+      "hash": "74662330b8d9af92187691ed63368d4d550928f0d7d708661966c5ff7e872852",
+      "size": 1499,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/eval/metrics.py"
+    },
+    "/extract_thinker/eval/report.py": {
+      "type": "binary",
+      "hash": "0bb6befd662219cf56e45ffc02549707942bd240c599febacdf8ac2da05da0b0",
+      "size": 1509,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/eval/report.py"
+    },
+    "/extract_thinker/eval/setup.py": {
+      "type": "binary",
+      "hash": "f85a446bd8f063d75e4c44ea7ef080139441b55c166134863eed788a0b5d83f9",
+      "size": 129,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/eval/setup.py"
+    },
+    "/extract_thinker/exceptions.py": {
+      "type": "binary",
+      "hash": "a80db5e3215d7a7f1d7ed6050c36463762e939bc6c17f55e5307ded5a4852baa",
+      "size": 155,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/exceptions.py"
+    },
+    "/extract_thinker/extractor.py": {
+      "type": "binary",
+      "hash": "09d601ee1e8cf2276a19b850e923ce2256506a29887f2af046a82c4dc1f525b3",
+      "size": 11724,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/extractor.py"
+    },
+    "/extract_thinker/global_models.py": {
+      "type": "binary",
+      "hash": "2bcc755d8e83707ae179cd7b587ccd8df01813956b1dc5613ed97021dcf66a5e",
+      "size": 205,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/global_models.py"
+    },
+    "/extract_thinker/image_splitter.py": {
+      "type": "binary",
+      "hash": "7629f32783bd2c4027cf1f841959c8801074aeeb3fe495b66970f8df1e14be29",
+      "size": 2512,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/image_splitter.py"
+    },
+    "/extract_thinker/llm.py": {
+      "type": "binary",
+      "hash": "73999212ff9e6460a63e554824536f67dc0103a020f8cdef6a0f40c110d1dccf",
+      "size": 3564,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/llm.py"
+    },
+    "/extract_thinker/llm_engine.py": {
+      "type": "binary",
+      "hash": "db5f8657f8f42bc9c7b5510d4b2dcc00229760d5f96ec96f82b08a83f4113645",
+      "size": 238,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/llm_engine.py"
+    },
+    "/extract_thinker/markdown/__init__.py": {
+      "type": "content",
+      "content": " ",
+      "hash": "36a9e7f1c95b82ffb99743e0c5c4ce95d83c9a430aac59f84ef3cbfab6145068",
+      "size": 1
+    },
+    "/extract_thinker/markdown/markdown_converter.py": {
+      "type": "binary",
+      "hash": "9acb42899dae8dad9b043edb79766f3ca421619a29a4eddcae7856f3ac848550",
+      "size": 8016,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/markdown/markdown_converter.py"
+    },
+    "/extract_thinker/models/abstract_classification.py": {
+      "type": "binary",
+      "hash": "8dd34f4cd9fb188065f2d4d2c4556eb533cae76ceed6d9bfac4d0f99560e8219",
+      "size": 60,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/models/abstract_classification.py"
+    },
+    "/extract_thinker/models/batch_result.py": {
+      "type": "binary",
+      "hash": "420e7ceb76fa3d2a571d1105d74be49d0bffdf471eaf2b5a663470d174acdde6",
+      "size": 97,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/models/batch_result.py"
+    },
+    "/extract_thinker/models/batch_status.py": {
+      "type": "binary",
+      "hash": "81fe346f240b7fad947a4c1b06c47aec9e63c490cfe56ce491e754d0c554c592",
+      "size": 115,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/models/batch_status.py"
+    },
+    "/extract_thinker/models/classification.py": {
+      "type": "binary",
+      "hash": "d882fca69fd720ea8310b9e3aa43aebb2ddafb6750cfa0fe43ea24ec6ad72ebf",
+      "size": 413,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/models/classification.py"
+    },
+    "/extract_thinker/models/classification_node.py": {
+      "type": "binary",
+      "hash": "c72ac0191de446dee647d4ea981be35eab0dc09d7fa81b44ca0f702157c1aa35",
+      "size": 180,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/models/classification_node.py"
+    },
+    "/extract_thinker/models/classification_response.py": {
+      "type": "binary",
+      "hash": "dd5740f7286f072c02a0f729cef8ab425d7672a0a790e16c1a25ac804a9d07a4",
+      "size": 215,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/models/classification_response.py"
+    },
+    "/extract_thinker/models/classification_strategy.py": {
+      "type": "binary",
+      "hash": "70fef129ec8d5d3cb7de97d86f56a69d35c87f0d3bd1483f4bed93e0d2a640f5",
+      "size": 131,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/models/classification_strategy.py"
+    },
+    "/extract_thinker/models/classification_tree.py": {
+      "type": "binary",
+      "hash": "29cb73ef92ebc470119f336ca994dc785a6103ea976794c30979beb08785bf0d",
+      "size": 124,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/models/classification_tree.py"
+    },
+    "/extract_thinker/models/completion_strategy.py": {
+      "type": "binary",
+      "hash": "8de20512fafb7dfec8e37e3e96b7cb3e0dfdd0fcffc0e9f4c6e97fb5fb54efde",
+      "size": 114,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/models/completion_strategy.py"
+    },
+    "/extract_thinker/models/contract.py": {
+      "type": "binary",
+      "hash": "6cf73210e946a61ce982969ac9e544a689285ccc82f3ece18f904bbd17895bfd",
+      "size": 61,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/models/contract.py"
+    },
+    "/extract_thinker/models/doc_group.py": {
+      "type": "binary",
+      "hash": "010e073d5ce40c70ab19041527097c7ef345c57bbabe1ca8e44c306b1f00c6b7",
+      "size": 136,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/models/doc_group.py"
+    },
+    "/extract_thinker/models/doc_groups.py": {
+      "type": "binary",
+      "hash": "4b0956aa27311020a633398fb807ab2bd1a3172c85d80b88dea43ef4017f9eb3",
+      "size": 117,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/models/doc_groups.py"
+    },
+    "/extract_thinker/models/doc_groups2.py": {
+      "type": "binary",
+      "hash": "bff804220e51135bfa204e5f28e216266c8da04b1f696ae1b145f99469a5e25c",
+      "size": 143,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/models/doc_groups2.py"
+    },
+    "/extract_thinker/models/eager_doc_group.py": {
+      "type": "binary",
+      "hash": "f8d84f481a8102953e67a41ad15c4cb736d98afe341591dc9dea35e7122b73ac",
+      "size": 157,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/models/eager_doc_group.py"
+    },
+    "/extract_thinker/models/lazy_doc_group.py": {
+      "type": "binary",
+      "hash": "61d898ee34d95b52faa0b5558bc21dd0c6488c3ba2bfca65c2982ca377810f21",
+      "size": 98,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/models/lazy_doc_group.py"
+    },
+    "/extract_thinker/models/splitting_strategy.py": {
+      "type": "binary",
+      "hash": "b0898fcb88931be73ba425771fd84774b2a04f95a4773ef7e6cdc0741b6789b6",
+      "size": 84,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/models/splitting_strategy.py"
+    },
+    "/extract_thinker/pagination_handler.py": {
+      "type": "binary",
+      "hash": "b820bfcb57e2ac82a85d098d2477671e0aac6439f39776de36108bad231a8608",
+      "size": 5585,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/pagination_handler.py"
+    },
+    "/extract_thinker/process.py": {
+      "type": "binary",
+      "hash": "d5905992cd6d44add6a409c5bebcc59700c3f4d321d2021526249e3138f4cee2",
+      "size": 3224,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/process.py"
+    },
+    "/extract_thinker/splitter.py": {
+      "type": "binary",
+      "hash": "7a534086e4cada63d4d6a78961294fd8c5a5cfb82ab39cb1ec05d0e6dfc542f5",
+      "size": 1026,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/splitter.py"
+    },
+    "/extract_thinker/text_splitter.py": {
+      "type": "binary",
+      "hash": "05974f44a9d388d1364149f480196a5e6742ea488c9a5d9b5b2afc5ecaa9774f",
+      "size": 1966,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/text_splitter.py"
+    },
+    "/extract_thinker/utils.py": {
+      "type": "binary",
+      "hash": "79f01338f482bd18261c62def9f129b611e344bdf75dfb6cf46e8126fbe70cd6",
+      "size": 5987,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/utils.py"
+    },
+    "/extract_thinker/warning.py": {
+      "type": "binary",
+      "hash": "1c3b1bb90ce4326027239600cad19388e31f24dec32e4eec53f8f9b98d479413",
+      "size": 122,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/extract_thinker/warning.py"
+    },
+    "/mkdocs.yml": {
+      "type": "binary",
+      "hash": "96ab15aa0ea941a757712b3395a0649609341aebaba99930828bab11ba993e38",
+      "size": 1442,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/mkdocs.yml"
+    },
+    "/poetry.lock": {
+      "type": "binary",
+      "hash": "a13416e739300b91e1801bd1fbe68b49a0db394fa500d46a9c8ad9bbd4e800d6",
+      "size": 96871,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/poetry.lock"
+    },
+    "/pyproject.toml": {
+      "type": "binary",
+      "hash": "00e01bc96b516fe2d3bc8cf8eff622861e273efb9473aa9919d599096fa37922",
+      "size": 473,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/pyproject.toml"
+    },
+    "/requirements-docs.txt": {
+      "type": "binary",
+      "hash": "4e702b3e68ee9972eaee8e7b92b1842421869e7159cab11452d9755f56ffcbbd",
+      "size": 37,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/requirements-docs.txt"
+    },
+    "/requirements.txt": {
+      "type": "binary",
+      "hash": "9a70b87812dd706b76d6c70efe9b3a44087279940e9014318624464aa776420a",
+      "size": 70,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/requirements.txt"
+    },
+    "/tests/__init__.py": {
+      "type": "content",
+      "content": "",
+      "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0
+    },
+    "/tests/create_test_spreadsheet.py": {
+      "type": "binary",
+      "hash": "166483de7a73567b43beb9cfae3bea2a64b07cf49e30f5914d9380b4e98600b4",
+      "size": 448,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/create_test_spreadsheet.py"
+    },
+    "/tests/critical/test_critical_classification.py": {
+      "type": "binary",
+      "hash": "32ddc3ef14ed00e93204e9edbd54c110bc564c5e92bbb4fa0929b615abe382bc",
+      "size": 564,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/critical/test_critical_classification.py"
+    },
+    "/tests/critical/test_critical_extraction.py": {
+      "type": "binary",
+      "hash": "df81df773dc02af3204547f436f4b8be012061cafb7a7cef2568a3d4f8ede2f7",
+      "size": 615,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/critical/test_critical_extraction.py"
+    },
+    "/tests/files/CV_Candidate.pdf": {
+      "type": "binary",
+      "hash": "8120c54dec3cb9c838e620bda6b2d62262885e2d6082d61270a9011c042de6d8",
+      "size": 34062,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/files/CV_Candidate.pdf"
+    },
+    "/tests/files/Regional_GDP_per_capita_2018.pdf": {
+      "type": "binary",
+      "hash": "ff23b95cb9c8f397fe8b822b9c487724b53b97d916e50dc729eb2061ba813719",
+      "size": 1070809,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/files/Regional_GDP_per_capita_2018.pdf"
+    },
+    "/tests/files/Regional_GDP_per_capita_2018_2.pdf": {
+      "type": "binary",
+      "hash": "b915c3cb3515a6b451ce3e4dbac4c5bd11fd95257d8e3e61bdc5cf21efaba650",
+      "size": 289546,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/files/Regional_GDP_per_capita_2018_2.pdf"
+    },
+    "/tests/files/Report-state-regions-and-cities-EN.pdf": {
+      "type": "binary",
+      "hash": "dad9ad894296bc99cb7ff44a6ffe32199494874f624a3f28411d7384e26a8d11",
+      "size": 3714619,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/files/Report-state-regions-and-cities-EN.pdf"
+    },
+    "/tests/files/ambiguous_credit_note.txt": {
+      "type": "binary",
+      "hash": "c85737043db52294f4fe4a6d0deac66a895da249b2ed15074533b5c04a3811bc",
+      "size": 263,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/files/ambiguous_credit_note.txt"
+    },
+    "/tests/files/bulk.pdf": {
+      "type": "binary",
+      "hash": "1e2f72705f332e2626b212cfb61f34cf5b55ecd5762a713809b441cc9ba78ce8",
+      "size": 1119995,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/files/bulk.pdf"
+    },
+    "/tests/files/family_budget.xlsx": {
+      "type": "binary",
+      "hash": "7bb1780150a0d8310ac3e5a7580e3338d5925d221dcb2f1181c90673a676ee30",
+      "size": 18718,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/files/family_budget.xlsx"
+    },
+    "/tests/files/fca-approach-payment-services-electronic-money-2017-5.pdf": {
+      "type": "binary",
+      "hash": "17594246b821422ac7dbab11f159776a76e2ca4d8b6af3155ecaec4babae79a9",
+      "size": 50505,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/files/fca-approach-payment-services-electronic-money-2017-5.pdf"
+    },
+    "/tests/files/form_with_tables.pdf": {
+      "type": "binary",
+      "hash": "cbe1daa3a09d1b9cecb4057d0a43bcd5eb8d79ba3b15d38d140d94dbf6ca484b",
+      "size": 60245,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/files/form_with_tables.pdf"
+    },
+    "/tests/files/invoice.docx": {
+      "type": "binary",
+      "hash": "95971ae47c5be08da6750de68faefd7b1470ce8d8ec6af4d4147a4e15306e615",
+      "size": 57974,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/files/invoice.docx"
+    },
+    "/tests/files/invoice.pdf": {
+      "type": "binary",
+      "hash": "1cf8d2579207ea2a188e83f8a83f45ca68534f496db6b207651d0a75fb9d5363",
+      "size": 72929,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/files/invoice.pdf"
+    },
+    "/tests/files/test_spreadsheet.xlsx": {
+      "type": "binary",
+      "hash": "5e96729d5251b659d8f1edf8068d8b848ef5cf381c63e73f37ff7abfde6bd2d9",
+      "size": 4942,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/files/test_spreadsheet.xlsx"
+    },
+    "/tests/models/Chart.py": {
+      "type": "binary",
+      "hash": "ffa74e87581fad448966982582b92f70ec05ece5d3fce96cb3b11d7c8e9878c6",
+      "size": 255,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/models/Chart.py"
+    },
+    "/tests/models/ChartWithContent.py": {
+      "type": "binary",
+      "hash": "7876d5d69d33e943c595ae7150ae1e6cc77295142b74034d9a4fa13364e133a1",
+      "size": 163,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/models/ChartWithContent.py"
+    },
+    "/tests/models/DocumentContent.py": {
+      "type": "binary",
+      "hash": "aa020addd28dfc3b437947112ba319fe09bdd6b08c1813c5ce10bb33563facef",
+      "size": 203,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/models/DocumentContent.py"
+    },
+    "/tests/models/Page.py": {
+      "type": "binary",
+      "hash": "25d9270ee58c459a292e45de30dd46fefd1036f269ec9f6e697e5a602c00d94c",
+      "size": 182,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/models/Page.py"
+    },
+    "/tests/models/XYCoordinate.py": {
+      "type": "binary",
+      "hash": "975587896240c280b3034c21118e7c4bca8d8b66211555bfc22be527a7971e37",
+      "size": 131,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/models/XYCoordinate.py"
+    },
+    "/tests/models/driver_license.py": {
+      "type": "binary",
+      "hash": "7eb10c1b18b1b2a8ad190904f1e6e4dcb133ee5064154f3d1eda846504b9c2f5",
+      "size": 122,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/models/driver_license.py"
+    },
+    "/tests/models/gdp_contract.py": {
+      "type": "binary",
+      "hash": "fc23b2baa48517db891fd60b736d7a61adf74ae13fca13267968165f7829568b",
+      "size": 701,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/models/gdp_contract.py"
+    },
+    "/tests/models/handbook_contract.py": {
+      "type": "binary",
+      "hash": "1541083b56e47203e03018589a01ead6e7749a92cddfff53d2ca6390be5cc8c6",
+      "size": 74,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/models/handbook_contract.py"
+    },
+    "/tests/models/invoice.py": {
+      "type": "binary",
+      "hash": "e2a47411a4730cf401f8cfcf3af2ad6a6e638fcd9cf8bdc42ae442a44e6a98aa",
+      "size": 330,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/models/invoice.py"
+    },
+    "/tests/models/license_contract.py": {
+      "type": "binary",
+      "hash": "ad2dc437e6e9eb275372acb1e6bc3c3afc2d35b876006d6c6bfb303eb74fd044",
+      "size": 132,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/models/license_contract.py"
+    },
+    "/tests/models/page_contract.py": {
+      "type": "binary",
+      "hash": "1758e442ce80d9d889d19fccb558e4a78c8ff06bf66ee922bc30b6e35d2143fb",
+      "size": 180,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/models/page_contract.py"
+    },
+    "/tests/notes.txt": {
+      "type": "binary",
+      "hash": "10eb707a6f22130595b97a16c1f65efb88f40136b653b51ee1413e4e610812f9",
+      "size": 150,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/notes.txt"
+    },
+    "/tests/test_batch_extractor.py": {
+      "type": "binary",
+      "hash": "ce42d46ceaab2a5b11a14079069ee2a58ed507b5dbd0bce42b93aabd931d03d0",
+      "size": 700,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/test_batch_extractor.py"
+    },
+    "/tests/test_classify.py": {
+      "type": "binary",
+      "hash": "ab4c46948fee2a0342acac553e1edd4b39c6776508609e83f9129e69ec2331be",
+      "size": 3950,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/test_classify.py"
+    },
+    "/tests/test_data/documents/invoice.pdf": {
+      "type": "binary",
+      "hash": "1cf8d2579207ea2a188e83f8a83f45ca68534f496db6b207651d0a75fb9d5363",
+      "size": 72929,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/test_data/documents/invoice.pdf"
+    },
+    "/tests/test_data/labels/permanent_labels.json": {
+      "type": "binary",
+      "hash": "b4375fa54ee0dc5d2ab4b162aa0420ae7dd08ae0f864af1ef7a5813463e2a6c5",
+      "size": 163,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/test_data/labels/permanent_labels.json"
+    },
+    "/tests/test_document_loader_aws_textract.py": {
+      "type": "binary",
+      "hash": "699386b6872035c44c41dcb600a9a418959148b67d0ce6d3afa0813fe365ada7",
+      "size": 1836,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/test_document_loader_aws_textract.py"
+    },
+    "/tests/test_document_loader_azure_document_intelligence.py": {
+      "type": "binary",
+      "hash": "c20516f3451aaea9f9deb456fb772ea9458ca8e88b3599b6cbcd8b4c88b32ef2",
+      "size": 2279,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/test_document_loader_azure_document_intelligence.py"
+    },
+    "/tests/test_document_loader_base.py": {
+      "type": "binary",
+      "hash": "6518e0948a479fcaf1567a1f18dd924881bf0e1f600f4749f4ddc911e5e6fe8f",
+      "size": 671,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/test_document_loader_base.py"
+    },
+    "/tests/test_document_loader_beautifulsoup.py": {
+      "type": "binary",
+      "hash": "98fe3d6495fe40d52d89cf7969675952378acb7719de19600547f2dcf1e2f8ae",
+      "size": 955,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/test_document_loader_beautifulsoup.py"
+    },
+    "/tests/test_document_loader_data.py": {
+      "type": "binary",
+      "hash": "f2c8858f3e01a56843909ce824dc793f03fad453c6aaac92713e1e06e9db4c2f",
+      "size": 850,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/test_document_loader_data.py"
+    },
+    "/tests/test_document_loader_docling.py": {
+      "type": "binary",
+      "hash": "f65da94f6d544974518e6158970cda5bcfa3d3be8282fde9a7434b75fb9faf35",
+      "size": 1833,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/test_document_loader_docling.py"
+    },
+    "/tests/test_document_loader_easyocr.py": {
+      "type": "binary",
+      "hash": "4e75e38fe31817f8dac545e14dac3e058e26e66b8b02b0397908df64ec7c53e9",
+      "size": 1653,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/test_document_loader_easyocr.py"
+    },
+    "/tests/test_document_loader_google_document_ai.py": {
+      "type": "binary",
+      "hash": "e15b7fcb3f8c126f99cc3d7c75eedfcdac46e19a7cc05fa2d09a15a8e713b03e",
+      "size": 1366,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/test_document_loader_google_document_ai.py"
+    },
+    "/tests/test_document_loader_llm_image.py": {
+      "type": "binary",
+      "hash": "b20bf5c9262ed853df63ffb3dbf062fd0e55dd5843d8ba83591b9f34a70e7340",
+      "size": 1330,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/test_document_loader_llm_image.py"
+    },
+    "/tests/test_document_loader_markitdown.py": {
+      "type": "binary",
+      "hash": "017b9b0bad8d9463120a61e38ec1987a89cfa3cf2eb401edfb08cf29b1051fd2",
+      "size": 1517,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/test_document_loader_markitdown.py"
+    },
+    "/tests/test_document_loader_mistral_ocr.py": {
+      "type": "binary",
+      "hash": "87d00400f37cc3ce518ff84f9db0200332511a9fd2478b57e16b945bd9c9905a",
+      "size": 2748,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/test_document_loader_mistral_ocr.py"
+    },
+    "/tests/test_document_loader_pdfplumber.py": {
+      "type": "binary",
+      "hash": "881fef409f7c39ecb5cc1292ca2a8aa991827e660ba705ab41d7396c79e2b57a",
+      "size": 1049,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/test_document_loader_pdfplumber.py"
+    },
+    "/tests/test_document_loader_pypdf.py": {
+      "type": "binary",
+      "hash": "470fe48f52b3e479eb13e366cf4ad7801f2caeb8791875d9c0289410891edea5",
+      "size": 1127,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/test_document_loader_pypdf.py"
+    },
+    "/tests/test_document_loader_spreadsheet.py": {
+      "type": "binary",
+      "hash": "f6b5bf3e3cee9abe66b889bcb562c5a0ed8815979c0259c45fb06c77a95ad6db",
+      "size": 2633,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/test_document_loader_spreadsheet.py"
+    },
+    "/tests/test_document_loader_tesseract.py": {
+      "type": "binary",
+      "hash": "6eb1a895930ca414c57090b3b69e5860a821fb8a38e0287cbb20736aed1f7ff5",
+      "size": 1282,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/test_document_loader_tesseract.py"
+    },
+    "/tests/test_document_loader_txt.py": {
+      "type": "binary",
+      "hash": "204b223a18e518005e132e63778fe351d6fff4c0b2fe39f1e740b91a4e608c91",
+      "size": 1260,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/test_document_loader_txt.py"
+    },
+    "/tests/test_document_loader_word.py": {
+      "type": "binary",
+      "hash": "af9c45768113a7f9ec5cfb6250e174c573adf865c0c2b25960928fce1c756f5c",
+      "size": 977,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/test_document_loader_word.py"
+    },
+    "/tests/test_evals/invoice.pdf": {
+      "type": "binary",
+      "hash": "1cf8d2579207ea2a188e83f8a83f45ca68534f496db6b207651d0a75fb9d5363",
+      "size": 72929,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/test_evals/invoice.pdf"
+    },
+    "/tests/test_evaluator.py": {
+      "type": "binary",
+      "hash": "929ba854d9c7bbdb5fb9c9561d891573a12650e4de695377d524d39db3803f78",
+      "size": 6644,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/test_evaluator.py"
+    },
+    "/tests/test_extractor.py": {
+      "type": "binary",
+      "hash": "fdbc3b609af333c1d1acf4dec7ed70d8749746e67fec116fcd0dc7c950537653",
+      "size": 4408,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/test_extractor.py"
+    },
+    "/tests/test_images/driver_license.png": {
+      "type": "binary",
+      "hash": "05879cccbc1d7ea2e6fa77e4c1f66088187651b833a73823e2f0b3320dded241",
+      "size": 797572,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/test_images/driver_license.png"
+    },
+    "/tests/test_images/eu_tax_chart.png": {
+      "type": "binary",
+      "hash": "7b22336b75a71c6d1bf61bdd255cd30f7f940e7842ee815e9cb0f80e13e9ff81",
+      "size": 256453,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/test_images/eu_tax_chart.png"
+    },
+    "/tests/test_images/invoice.png": {
+      "type": "binary",
+      "hash": "ff90d5c12c68527499be789d0ca901ba003f6bdc985887db954ac39f39b8acf2",
+      "size": 45371,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/test_images/invoice.png"
+    },
+    "/tests/test_llm_backends.py": {
+      "type": "binary",
+      "hash": "28b046e34d60499143691ed211d79e67c54a56b259688fc74877b27c20b184eb",
+      "size": 465,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/test_llm_backends.py"
+    },
+    "/tests/test_markdown_converter.py": {
+      "type": "binary",
+      "hash": "02f59b08df43eaf80020f2f201ecacdeaaae09ac78d9bffdef12a8a8336962f5",
+      "size": 1926,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/test_markdown_converter.py"
+    },
+    "/tests/test_ollama.py": {
+      "type": "binary",
+      "hash": "35b22239fda2a5f0298aac7114d9bf06fa769be05db48809a09c055a0681be68",
+      "size": 1877,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/test_ollama.py"
+    },
+    "/tests/test_process.py": {
+      "type": "binary",
+      "hash": "dabc80051e9fd2d792eebdfc7998121a4b3420e189711f53828a179fc69c1111",
+      "size": 2573,
+      "url": "https://raw.githubusercontent.com/enoch3712/ExtractThinker/HEAD/tests/test_process.py"
+    }
+  }
+}

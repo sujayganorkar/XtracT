@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  ocr-pipeline:
+    build: .
+    container_name: qwen-ocr-pipeline
+    ports:
+      - "3000:3000"
+    volumes:
+      # Mount sample images (read-only)
+      - "./sample images:/app/sample images:ro"
+      # Mount output directory (read-write)
+      - "./output:/app/server/output"
+      # Mount uploads directory (read-write)
+      - "./uploads:/app/server/uploads"
+      # Mount test results
+      - "./test_results:/app/test_results"
+    environment:
+      # Ollama connection (host.docker.internal works on Windows/Mac Docker Desktop)
+      - OLLAMA_BASE_URL=http://host.docker.internal:11434
+      - NODE_ENV=production
+      - PYTHONUNBUFFERED=1
+    extra_hosts:
+      # Allow container to reach Ollama on Windows host
+      - "host.docker.internal:host-gateway"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "node", "-e", "require('http').get('http://localhost:3000/health', (r) => { process.exit(r.statusCode === 200 ? 0 : 1); });"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s

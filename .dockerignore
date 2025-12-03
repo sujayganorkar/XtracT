@@ -1,0 +1,53 @@
+# Node modules (will be installed in container)
+server/node_modules
+node_modules
+
+# Python cache
+**/__pycache__
+**/*.pyc
+**/*.pyo
+**/*.pyd
+.Python
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git
+.git
+.gitignore
+
+# Docker
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# Output directories (will be mounted as volumes)
+server/output
+server/uploads
+output
+uploads
+test_results
+
+# Documentation
+*.md
+docs
+
+# PaddleOCR model cache (will download fresh in container)
+.paddleocr
