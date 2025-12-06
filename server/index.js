@@ -85,7 +85,13 @@ app.post('/upload', upload.single('image'), async (req, res) => {
         fs.mkdirSync(outputDir, { recursive: true });
     }
 
-    const imagePath = req.file.path;
+    // PaddleOCR 3.x requires file extension - rename multer temp file to include extension
+    const originalExt = path.extname(req.file.originalname) || '.jpg';
+    const tempPath = req.file.path;
+    const imagePathWithExt = tempPath + originalExt;
+    fs.renameSync(tempPath, imagePathWithExt);
+
+    const imagePath = imagePathWithExt;
     const imageBuffer = fs.readFileSync(imagePath);
     const base64Image = imageBuffer.toString('base64');
 

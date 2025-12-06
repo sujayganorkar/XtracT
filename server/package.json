@@ -8,7 +8,13 @@
     "dev": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["ocr", "qwen", "paddleocr", "document-extraction", "nlp"],
+  "keywords": [
+    "ocr",
+    "qwen",
+    "paddleocr",
+    "document-extraction",
+    "nlp"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
@@ -16,10 +22,10 @@
     "cors": "^2.8.5",
     "express": "^5.2.1",
     "multer": "^2.0.2",
-    "tesseract.js": "^6.0.1",
-    "sharp": "^0.33.0"
+    "sharp": "^0.33.0",
+    "simple-spellchecker": "^1.0.2",
+    "tesseract.js": "^6.0.1"
   },
-  "devDependencies": {},
   "engines": {
     "node": ">=14.0.0"
   },

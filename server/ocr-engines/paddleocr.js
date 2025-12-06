@@ -27,6 +27,11 @@ async function runPaddleOCR(imagePath) {
         });
 
         python.on('close', (code) => {
+            // Always log stderr for debugging
+            if (errorOutput) {
+                console.log('PaddleOCR stderr:', errorOutput);
+            }
+
             if (code !== 0) {
                 console.error('PaddleOCR Python error:', errorOutput);
                 reject(new Error(`PaddleOCR failed with code ${code}: ${errorOutput}`));
@@ -37,13 +42,20 @@ async function runPaddleOCR(imagePath) {
                 // Locate the JSON object within the potentially noisy output
                 const jsonStartIndex = output.indexOf('{');
                 const jsonEndIndex = output.lastIndexOf('}');
-                
+
                 if (jsonStartIndex === -1 || jsonEndIndex === -1) {
                     throw new Error('No JSON object found in output');
                 }
 
                 const jsonString = output.substring(jsonStartIndex, jsonEndIndex + 1);
                 const result = JSON.parse(jsonString);
+
+                // Check if the result contains an error
+                if (result.error) {
+                    reject(new Error(result.error));
+                    return;
+                }
+
                 resolve(result);
             } catch (e) {
                 console.error('Failed to parse PaddleOCR output:', output);

@@ -99,6 +99,8 @@ function decideQwenInvocation(ocrBaseline) {
     const bothHighConfidence = (paddle_result.overall_confidence || 0) >= 0.98 &&
                                (tesseract_result.confidence || 0) >= 0.98;
 
+    console.log(`[GATE DEBUG] Overall: ${Math.round(overallConfidence * 100)}%, CharMatch: ${charMatch}, WordMatch: ${wordCountMatch}, BothHigh: ${bothHighConfidence}, LowRegions: ${lowConfidenceRegions.length}`);
+
     if (overallConfidence >= CONFIDENCE_THRESHOLDS.EXCELLENT &&
         charMatch &&
         wordCountMatch &&
