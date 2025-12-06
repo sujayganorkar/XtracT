@@ -1,19 +1,28 @@
 {
-  "name": "aimodels",
+  "name": "xtrakt",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "XtrakT - 4-Stage OCR Pipeline with PaddleOCR, Tesseract, Qwen2.5-VL, and Agentic Judge",
+  "main": "server/index.js",
   "scripts": {
+    "server": "node server/index.js",
+    "client": "cd client && npm run dev",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "install-all": "npm install && cd client && npm install",
+    "build": "cd client && npm run build",
+    "start": "npm run server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["ocr", "qwen", "paddleocr", "tesseract", "vision", "ai", "image-analysis", "text-extraction", "xtrakt"],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "axios": "^1.13.2",
     "cors": "^2.8.5",
     "express": "^5.2.1",
     "multer": "^2.0.2",
     "tesseract.js": "^6.0.1"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
   }
 }

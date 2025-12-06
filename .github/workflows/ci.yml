@@ -1,0 +1,51 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  lint-and-build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+        cache: 'npm'
+
+    - name: Install server dependencies
+      run: npm install
+
+    - name: Install client dependencies
+      run: cd client && npm install
+
+    - name: Lint client
+      run: cd client && npm run lint
+      continue-on-error: true
+
+    - name: Build client
+      run: cd client && npm run build
+
+    - name: Upload build artifacts
+      uses: actions/upload-artifact@v3
+      with:
+        name: client-build
+        path: client/dist/
+        retention-days: 7
+
+  # Optional: Add deployment job
+  # deploy:
+  #   needs: lint-and-build
+  #   runs-on: ubuntu-latest
+  #   if: github.ref == 'refs/heads/main'
+  #
+  #   steps:
+  #   - name: Deploy to production
+  #     run: echo "Add your deployment steps here"

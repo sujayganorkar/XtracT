@@ -1,5 +1,5 @@
-# OCR-First Pipeline - Docker Image
-# Solves Windows compatibility issues by running in Linux container
+# XtrakT - AI-Powered OCR Pipeline
+# Docker image for cross-platform deployment
 
 FROM node:20-slim
 
